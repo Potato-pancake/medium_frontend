@@ -51,6 +51,7 @@ const BoardDetailLayout = () => {
             {[0, 1, 2, 3, 4, 5].map((value) => (
               <Artwork
                 key={value}
+                id={value}
                 artworkName="작업물 제목"
                 artistName="아티스트"
               />
