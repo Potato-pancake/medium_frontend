@@ -1,6 +1,6 @@
 import Artwork from "@/components/Artwork";
 import Image from "next/image";
-import ArrowBack from "../../assets/arrow_back_ios_new.svg";
+import ArrowBack from "../assets/arrow_back_ios_new.svg";
 
 const BoardDetailLayout = () => {
   return (

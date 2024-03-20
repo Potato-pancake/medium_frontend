@@ -1,4 +1,4 @@
-import BoardDetailLayout from "@/pages/board/layout/detail";
+import BoardDetailLayout from "@/pages/detail/layout";
 
 const BoardDetailPage = () => {
   return <BoardDetailLayout />;
