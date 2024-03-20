@@ -1,6 +1,7 @@
 import Artwork from "@/components/Artwork";
 import Image from "next/image";
 import ArrowBack from "../assets/arrow_back_ios_new.svg";
+import Link from "next/link";
 
 const BoardDetailLayout = () => {
   return (
@@ -8,10 +9,12 @@ const BoardDetailLayout = () => {
       <main className="max-w-[1120px] w-[calc(100%-2rem)] flex flex-col gap-12 m-auto">
         <div className="flex flex-col gap-12">
           <section className="max-w-[740px] w-full flex flex-col gap-9 m-auto">
-            <button className="w-fit flex items-center text-base text-gray-900 font-medium">
-              <Image src={ArrowBack} alt="arrow_back" />
-              뒤로 가기
-            </button>
+            <Link href="/board">
+              <button className="w-fit flex items-center text-base text-gray-900 font-medium">
+                <Image src={ArrowBack} alt="arrow_back" />
+                뒤로 가기
+              </button>
+            </Link>
             <div className="flex flex-col gap-4">
               <h1 className="text-4xl text-gray-900 font-bold whitespace-pre-wrap">
                 이 곳은 작업물 제목이 들어갈 자리입니다{"\n"}최대 2줄까지 들어갈
