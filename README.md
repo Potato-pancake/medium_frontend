@@ -1,3 +1,7 @@
+![홈](https://github.com/Potato-pancake/medium_frontend/assets/101105694/0c4a9f12-f6e1-469c-8215-5ac2138bffc4)
+
+![image](https://github.com/Potato-pancake/medium_frontend/assets/101105694/17b46f90-e1b6-470d-abcb-38e500eba9fa)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
